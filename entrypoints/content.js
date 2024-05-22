@@ -1,9 +1,9 @@
 export default defineContentScript({
   matches: ['*://*/*'],
   include_globs: [
-    "*://*.google.*/*",
+    "*://*.google.*/search",
   ],
   main() {
-    browser.runtime.sendMessage({ action: 'add_udm_14', url: document.URL });
+    console.log(`Processing URL [${document.URL}]`);
   },
 });
