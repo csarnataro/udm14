@@ -11,7 +11,6 @@ export default defineConfig({
     short_name: "Prefer Web",
     permissions: [
       'storage',
-      'tabs',
       'declarativeNetRequest',
     ],
     declarative_net_request: {
