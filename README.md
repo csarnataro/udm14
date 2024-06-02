@@ -1,4 +1,4 @@
-# Google Prefer Web
+# Prefer Web
 
 A browser extension to search on Google giving precedence to non-AI results
 

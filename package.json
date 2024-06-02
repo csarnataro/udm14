@@ -1,5 +1,5 @@
 {
-  "name": "google-prefer-web",
+  "name": "prefer-web",
   "description": "An extension to search on Google giving precedence to non-AI results",
   "private": false,
   "version": "1.0.0",
