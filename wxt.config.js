@@ -12,6 +12,7 @@ export default defineConfig({
     permissions: [
       'storage',
       'declarativeNetRequest',
+      'https://google.com/*'
     ],
     declarative_net_request: {
       rule_resources: [{
