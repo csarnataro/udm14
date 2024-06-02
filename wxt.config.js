@@ -7,7 +7,7 @@ export default defineConfig({
     plugins: [preact()],
   }),
   manifest: {
-    name: "Google Prefer Web",
+    name: "Prefer Web",
     short_name: "Prefer Web",
     permissions: [
       'storage',
